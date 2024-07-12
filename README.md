@@ -72,3 +72,16 @@ patient care.
 ├── kidney_disease.csv      # Dataset file
 ├── README.md               # Project documentation
 
+# project working
+
+https://github.com/user-attachments/assets/7739b17d-9910-4e5c-890c-157208da5e71
+
+
+
+# Project working
+
+
+
+
+
+
