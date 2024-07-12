@@ -72,5 +72,3 @@ patient care.
 ├── kidney_disease.csv      # Dataset file
 ├── README.md               # Project documentation
 
-
-"C:\sudhanshu_projects\project-task-training-course\chronic-kidney-disease-prediction\project-working-video.wmv"
