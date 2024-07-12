@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result - Chronic Kidney Disease Prediction</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="{{ url_for('static', filename='images/logo.png') }}"
+        alt="Logo"
+      />
+      <h1>Chronic Kidney Disease Prediction</h1>
+    </header>
+    <main>
+      <h2>Prediction Result</h2>
+      <p>Username: {{ username }}</p>
+      <p>Email: {{ email }}</p>
+      <p>Prediction: You have {{ result }}</p>
+      <h3>Input Data:</h3>
+      <ul>
+        {% for key, value in user_input.items() %}
+        <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+      </ul>
+      <a href="{{ url_for('download_report') }}">Download Report</a>
+    </main>
+  </body>
+</html>
